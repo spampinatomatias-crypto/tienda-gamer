@@ -8,7 +8,7 @@
 <style>
 
 body{
-background:linear-gradient(135deg,#0f172a,#020617);
+background:#0f172a;
 font-family:Arial;
 color:white;
 text-align:center;
@@ -16,9 +16,8 @@ margin:0;
 }
 
 h1{
-margin-top:40px;
 color:#38bdf8;
-font-size:40px;
+margin-top:40px;
 }
 
 .productos{
@@ -34,8 +33,8 @@ background:#1e293b;
 padding:20px;
 border-radius:15px;
 width:220px;
+box-shadow:0px 0px 15px black;
 transition:0.3s;
-box-shadow:0 0 15px black;
 }
 
 .card:hover{
@@ -62,11 +61,6 @@ button:hover{
 background:#16a34a;
 }
 
-footer{
-margin-top:60px;
-opacity:0.7;
-}
-
 </style>
 
 </head>
@@ -74,51 +68,62 @@ opacity:0.7;
 <body>
 
 <h1>🎮 Tienda Gamer</h1>
-<p>Robux • Pavos • Discord Nitro • Rocket League</p>
 
 <div class="productos">
 
 <div class="card">
-<img src="https://tr.rbxcdn.com/180DAY-9c2b4d8eae8c9a7a2ef9b5e1c0f4c2b8/768/432/Image/Webp/noFilter">
+
+<img src="https://static.wikia.nocookie.net/roblox/images/6/6c/Robux.png">
+
 <h3>800 Robux</h3>
 <p>$7 USD</p>
-<button onclick="comprar('Robux')">Comprar</button>
+
+<a href="https://www.paypal.com">
+<button>Comprar</button>
+</a>
+
 </div>
 
 <div class="card">
+
 <img src="https://cdn2.unrealengine.com/fortnite-vbucks-1920x1080-1920x1080-66c7b27c1d6a.jpg">
+
 <h3>1000 Pavos</h3>
 <p>$8 USD</p>
-<button onclick="comprar('Pavos')">Comprar</button>
+
+<a href="https://www.mercadopago.com">
+<button>Comprar</button>
+</a>
+
 </div>
 
 <div class="card">
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg">
+
 <h3>Discord Nitro</h3>
 <p>$5 USD</p>
-<button onclick="comprar('Nitro')">Comprar</button>
+
+<a href="https://www.paypal.com">
+<button>Comprar</button>
+</a>
+
 </div>
 
 <div class="card">
+
 <img src="https://rocketleague.media.zestyio.com/rl_logo.jpg">
+
 <h3>1100 Créditos Rocket League</h3>
 <p>$9 USD</p>
-<button onclick="comprar('Rocket League')">Comprar</button>
-</div>
+
+<a href="https://www.mercadopago.com">
+<button>Comprar</button>
+</a>
 
 </div>
 
-<footer>
-<p>© 2026 Tienda Gamer</p>
-</footer>
-
-<script>
-
-function comprar(producto){
-alert("Elegiste comprar: " + producto + ". Próximamente pagos con MercadoPago y PayPal.");
-}
-
-</script>
+</div>
 
 </body>
 </html>
